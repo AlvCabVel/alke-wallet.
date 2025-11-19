@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wallet - Menú Principal</title>
+  <link rel="stylesheet" href="./style_menu.css"
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Menú Principal</h2>
+    <div class="form-group">
+      <label for="balance">Dinero en cuenta:</label>
+      <div class="balance-display">
+        <h5>$</h5>
+        <h3 id="montoActual">---</h3>
+      </div>
+    </div>
+    <a href="deposit.html" class="btn btn-primary">
+      <i class="fas fa-piggy-bank"></i>
+      Depositar
+    </a>
+    <a href="sendmoney.html" class="btn btn-primary">
+      <i class="fas fa-paper-plane"></i>
+      Transferir
+    </a>
+    <a href="transactions.html" class="btn btn-primary">
+      <i class="fas fa-list-ul"></i>
+      Últimos Movimientos
+    </a>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="./script_menu.js"></script>
+</body>
+</html>
